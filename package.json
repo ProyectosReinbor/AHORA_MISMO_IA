@@ -1,0 +1,19 @@
+{
+  "name": "ahora_mismo",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "bun run index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "bun.lock": "^0.0.0",
+    "kaplay": "^3001.0.18",
+    "peerjs": "^1.5.5"
+  }
+}
